@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worinium.IDP", "Worinium.IDP\Worinium.IDP.csproj", "{4C2E08C7-030A-4122-8E0B-1B36FB50416D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{6B88DF40-3965-4AF0-8D8C-130EB863B4CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FC597D75-A4B6-4AB6-A823-C4F031A2E839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worinium.LAS.API", "Src\Worinium.LAS.API\Worinium.LAS.API.csproj", "{F9C02BA7-F3FB-4C94-B6A9-8B99BEAB9AD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C2E08C7-030A-4122-8E0B-1B36FB50416D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2E08C7-030A-4122-8E0B-1B36FB50416D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2E08C7-030A-4122-8E0B-1B36FB50416D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2E08C7-030A-4122-8E0B-1B36FB50416D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C02BA7-F3FB-4C94-B6A9-8B99BEAB9AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C02BA7-F3FB-4C94-B6A9-8B99BEAB9AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C02BA7-F3FB-4C94-B6A9-8B99BEAB9AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C02BA7-F3FB-4C94-B6A9-8B99BEAB9AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9C02BA7-F3FB-4C94-B6A9-8B99BEAB9AD5} = {6B88DF40-3965-4AF0-8D8C-130EB863B4CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D78010AE-26CA-461B-B38B-39F18ABA183A}
+	EndGlobalSection
+EndGlobal
